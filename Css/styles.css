@@ -45,3 +45,9 @@
                            "footer footer footer";
    } */
 
+   .grid {
+      grid-gap: var(--col_gutter);
+      padding: 0 var(--vp_gutter);
+      grid-template-columns: repeat(auto-fill, var(--item_size) );
+      display: grid;
+   }
