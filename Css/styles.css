@@ -48,6 +48,9 @@
    .grid {
       grid-gap: var(--col_gutter);
       padding: 0 var(--vp_gutter);
-      grid-template-columns: repeat(auto-fill, var(--item_size) );
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));      
       display: grid;
    }
+.grid> li {
+   list-style-type: none;
+}
