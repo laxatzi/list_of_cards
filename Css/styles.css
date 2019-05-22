@@ -1,4 +1,12 @@
 /* Common styles */
+:root {
+   --item_size: 210px;
+   --col_gutter: 10px;
+   --vp_gutter: 10px;
+   --max_cols: 5;
+   --colorDistinct: #F47E00;
+ }
+ 
 * {
    box-sizing: border-box;
  }
@@ -36,3 +44,4 @@
                            "sponsors sponsors sponsors"
                            "footer footer footer";
    } */
+
