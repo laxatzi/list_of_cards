@@ -54,7 +54,16 @@
       margin: 40px auto;
       grid-auto-rows: var(--item_size);
    }
-
+   .grid .header {
+      grid-row: span 2;
+      grid-column: span 2;
+      border: 1px solid red;
+   }
 .grid> li {
    list-style-type: none;
+}
+
+@media screen and (max-width: 500px) {
+ 
+   
 }
