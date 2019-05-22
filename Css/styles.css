@@ -1,0 +1,38 @@
+/* Common styles */
+* {
+   box-sizing: border-box;
+ }
+ 
+ html {
+   font-size: 18px;
+   font-family: Georgia, serif;
+ }
+ 
+ body {
+   background-color: #fbfbfb;
+
+ }
+ 
+ h1, h2, h3 {
+   margin-top: 0;
+ }
+ 
+ header h1 {
+   margin: 0;
+ }
+ 
+ main p {
+   margin-bottom: 0;
+ }
+
+   /* .container {
+      display: grid;
+      margin: 0 2rem;
+      grid-template-columns: 2fr 6fr 4fr;
+      grid-template-rows: 3rem auto;
+      grid-gap: 1rem;
+      grid-template-areas: "logo menu menu"
+                           "content content sidebar"
+                           "sponsors sponsors sponsors"
+                           "footer footer footer";
+   } */
