@@ -61,7 +61,18 @@
 .grid> li {
    list-style-type: none;
 }
-
+.grid .card a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.grid .card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media screen and (max-width: 500px) {
  
  
