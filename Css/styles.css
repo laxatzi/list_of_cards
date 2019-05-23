@@ -77,6 +77,9 @@
 
 
 @media screen and (max-width: 500px) {
- 
+ .grid .header{
+    grid-row: 1/1;
+    grid-column: 1/1  ;
+ }
  
 }
