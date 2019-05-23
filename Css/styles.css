@@ -129,6 +129,16 @@
       -ms-transform: none;
       -o-transform: none;
 }
+.grid .card a:focus {
+    outline-color:  rgb(51, 46, 46);
+    transform: scale(.95);
+    -webkit-transform: scale(.95);
+    -moz-transform: scale(.95);
+    -ms-transform: scale(.95);
+    -o-transform: scale(.95);
+}
+
+
 @media screen and (max-width: 995px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
