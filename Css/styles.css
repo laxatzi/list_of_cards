@@ -2,7 +2,7 @@
 :root {
    --item_size: 210px;
    --col_gutter: 10px;
-   --vp_gutter: 10px;
+   --vp_gutter: 30px;
    --max_cols: 5;
    --colorDistinct: #F47E00;
  }
@@ -48,16 +48,18 @@
    .grid {
       grid-gap: var(--col_gutter);
       padding: 0 var(--vp_gutter);
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
+      grid-template-columns: repeat(5, minmax(200px, 1fr));  
       display: grid;
       justify-content: center;
       margin: 40px auto;
       grid-auto-rows: var(--item_size);
    }
+   
    .grid .header {
       grid-row: span 2;
       grid-column: span 2;
    }
+
 .grid> li {
    list-style-type: none;
 }
@@ -74,9 +76,18 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 995px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
 
+  }
+}
 
 @media screen and (max-width: 500px) {
+  .contatiner {
+    padding: 1rem;
+  }
+ 
  .grid .header{
     grid-row: 1/1;
     grid-column: 1/1  ;
