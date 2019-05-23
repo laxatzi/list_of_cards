@@ -62,16 +62,24 @@
       text-align: center;
       padding-top: 24px;
       font-size: 1.8rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
       line-height: 1.45;
       background-color: #ccc;
    }
    .grid .header h1 {
-     margin-bottom: 0.7rem;
-     margin-top: 0;
-     text-transform: capitalize;
+     
+    margin:0 0 0.7rem;
+    text-transform: capitalize;
      font-weight: normal;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      padding: 0 2rem;
+     font-size: 125%;
+   }
+
+   .grid .header p {
+     margin: 0;
+     font-size: 80%;
+     padding: 0 20%; 
    }
 
 .grid> li {
