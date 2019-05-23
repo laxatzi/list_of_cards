@@ -63,13 +63,11 @@
       padding-top: 24px;
       font-size: 1.8rem;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
       line-height: 1.45;
       background-color: #ccc;
    }
    .grid .header h1 {
-     
-    margin:0 0 0.7rem;
+     margin:0 0 0.7rem;
     text-transform: capitalize;
      font-weight: normal;
      padding: 0 2rem;
@@ -121,13 +119,14 @@
 }
 
 @media screen and (max-width: 500px) {
-  .contatiner {
-    padding: 1rem;
-  }
+
  
  .grid .header{
-    grid-row: 1/1;
     grid-column: 1/1  ;
+    font-size: 1.5rem;
  }
- 
+ .grid .header h1 {
+   font-size: 100%;
+   line-height: 1.3;
+ }
 }
