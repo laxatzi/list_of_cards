@@ -58,6 +58,20 @@
    .grid .header {
       grid-row: span 2;
       grid-column: span 2;
+      box-sizing: border-box;
+      text-align: center;
+      padding-top: 24px;
+      font-size: 1.8rem;
+      line-height: 1.45;
+      background-color: #ccc;
+   }
+   .grid .header h1 {
+     margin-bottom: 0.7rem;
+     margin-top: 0;
+     text-transform: capitalize;
+     font-weight: normal;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 0 2rem;
    }
 
 .grid> li {
